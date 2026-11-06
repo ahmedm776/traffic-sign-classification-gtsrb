@@ -1,0 +1,225 @@
+{
+ "reload_deterministic": true,
+ "history": [
+  {
+   "epoch": 1,
+   "val_loss": 0.3335,
+   "val_acc": 0.8833,
+   "lr": 0.0498
+  },
+  {
+   "epoch": 2,
+   "val_loss": 0.0689,
+   "val_acc": 0.9801,
+   "lr": 0.0492
+  },
+  {
+   "epoch": 3,
+   "val_loss": 0.0565,
+   "val_acc": 0.9812,
+   "lr": 0.0482
+  },
+  {
+   "epoch": 4,
+   "val_loss": 0.0169,
+   "val_acc": 0.9981,
+   "lr": 0.0468
+  },
+  {
+   "epoch": 5,
+   "val_loss": 0.0145,
+   "val_acc": 0.997,
+   "lr": 0.0422
+  },
+  {
+   "epoch": 6,
+   "val_loss": 0.016,
+   "val_acc": 0.9981,
+   "lr": 0.0402
+  },
+  {
+   "epoch": 7,
+   "val_loss": 0.0122,
+   "val_acc": 0.9977,
+   "lr": 0.038
+  },
+  {
+   "epoch": 8,
+   "val_loss": 0.0096,
+   "val_acc": 0.9981,
+   "lr": 0.0356
+  },
+  {
+   "epoch": 9,
+   "val_loss": 0.0117,
+   "val_acc": 0.9985,
+   "lr": 0.0252
+  },
+  {
+   "epoch": 10,
+   "val_loss": 0.0086,
+   "val_acc": 0.9992,
+   "lr": 0.0231
+  },
+  {
+   "epoch": 11,
+   "val_loss": 0.0093,
+   "val_acc": 0.9977,
+   "lr": 0.021
+  },
+  {
+   "epoch": 12,
+   "val_loss": 0.0077,
+   "val_acc": 0.9992,
+   "lr": 0.0188
+  },
+  {
+   "epoch": 13,
+   "val_loss": 0.0079,
+   "val_acc": 0.9992,
+   "lr": 0.0093
+  },
+  {
+   "epoch": 14,
+   "val_loss": 0.0081,
+   "val_acc": 0.9992,
+   "lr": 0.0082
+  },
+  {
+   "epoch": 15,
+   "val_loss": 0.0081,
+   "val_acc": 0.9992,
+   "lr": 0.0072
+  },
+  {
+   "epoch": 16,
+   "val_loss": 0.0093,
+   "val_acc": 0.9992,
+   "lr": 0.0062
+  },
+  {
+   "epoch": 17,
+   "val_loss": 0.0082,
+   "val_acc": 0.9992,
+   "lr": 0.0028
+  },
+  {
+   "epoch": 18,
+   "val_loss": 0.0083,
+   "val_acc": 0.9992,
+   "lr": 0.0026
+  },
+  {
+   "epoch": 19,
+   "val_loss": 0.0082,
+   "val_acc": 0.9992,
+   "lr": 0.0024
+  },
+  {
+   "epoch": 20,
+   "val_loss": 0.0082,
+   "val_acc": 0.9992,
+   "lr": 0.0023
+  },
+  {
+   "epoch": 21,
+   "val_loss": 0.0079,
+   "val_acc": 0.9992,
+   "lr": 0.002
+  },
+  {
+   "epoch": 22,
+   "val_loss": 0.008,
+   "val_acc": 0.9992,
+   "lr": 0.002
+  },
+  {
+   "epoch": 23,
+   "val_loss": 0.008,
+   "val_acc": 0.9992,
+   "lr": 0.002
+  },
+  {
+   "epoch": 24,
+   "val_loss": 0.0081,
+   "val_acc": 0.9992,
+   "lr": 0.002
+  }
+ ],
+ "test": {
+  "n": 12630,
+  "accuracy": 0.9889,
+  "worst_classes": [
+   {
+    "id": 30,
+    "name": "red and white triangle with snowflake / ice warning",
+    "n": 150,
+    "acc": 0.82
+   },
+   {
+    "id": 21,
+    "name": "red and white triangle with black double curve approaching warning",
+    "n": 90,
+    "acc": 0.9
+   },
+   {
+    "id": 15,
+    "name": "empty red and white circle",
+    "n": 210,
+    "acc": 0.919
+   },
+   {
+    "id": 39,
+    "name": "blue circle with white keep left arrow mandatory",
+    "n": 90,
+    "acc": 0.9667
+   },
+   {
+    "id": 40,
+    "name": "blue circle with white roundabout arrows mandatory",
+    "n": 90,
+    "acc": 0.9667
+   }
+  ],
+  "label": "official GTSRB final test set (12,630 images); the tanganke/gtsrb mirror copy used was verified content-identical to the official archives on 2026-11-05 (all images match by decoded-pixel SHA-256, original size and label; row order differs)",
+  "train_test_exact_duplicate_images": 0,
+  "audit_note": "A prior audit (2026-11-04) reported 1 train/test duplicate on the original prepared arrays; it was not reproduced on the verified raw data or on a fresh 32x32 conversion (2026-11-05). The original prepared arrays are unavailable; a nan correlation in that audit suggests a uniform/corrupted row, but the exact cause cannot now be proved. Verified finding: 0 exact duplicates; reproduced accuracy 0.98891526 on official-identical test content."
+ },
+ "motion_blur": {
+  "n": 12630,
+  "accuracy": 0.9821,
+  "worst_classes": [
+   {
+    "id": 30,
+    "name": "red and white triangle with snowflake / ice warning",
+    "n": 150,
+    "acc": 0.7467
+   },
+   {
+    "id": 21,
+    "name": "red and white triangle with black double curve approaching warning",
+    "n": 90,
+    "acc": 0.9
+   },
+   {
+    "id": 18,
+    "name": "red and white triangle with exclamation mark warning",
+    "n": 390,
+    "acc": 0.9359
+   },
+   {
+    "id": 15,
+    "name": "empty red and white circle",
+    "n": 210,
+    "acc": 0.9381
+   },
+   {
+    "id": 22,
+    "name": "red and white triangle rough / bumpy road warning",
+    "n": 120,
+    "acc": 0.9417
+   }
+  ],
+  "label": "mirror's precomputed motion_blur variant of the same 12,630 mirror-test images (labels identical; per-index image correlation 0.95-0.99 supports correspondence; exact official corruption provenance not proven)"
+ }
+}
